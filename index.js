@@ -34,7 +34,7 @@ var CreateCallback = (function() {
 			}
 			this.action = null;
 
-			if (this.onDispose) { this.onDispose(this); }
+			if (this.ondispose) { this.ondispose(this); }
 
 			this.dispose.disposed = true;
 		}
